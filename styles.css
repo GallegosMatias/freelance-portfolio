@@ -38,7 +38,7 @@ p {
 }
 
 .section-title span {
-  color: crimson;
+  color: #427AB3;
 }
 
 /* Header Section */
@@ -100,7 +100,7 @@ p {
 }
 
 .navbar ul li:hover a {
-  color: crimson;
+  color: #427AB3;
 }
 
 .navbar ul li a::after { /*Ghost Menu Effect*/
@@ -200,7 +200,7 @@ p {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: .7;
+  opacity: .1;
   z-index: -1;
 }
 
@@ -240,7 +240,7 @@ p {
   left: 0;
   height: 100%;
   width: 0;
-  background-color: crimson;
+  background-color: #427AB3;
   animation: text_reveal_box 1s ease;
   animation-delay: .3s;
 }
@@ -260,9 +260,9 @@ p {
 .cta { /*Button styles and effects*/
   display: inline-block;
   padding: 10px 30px;
-  color: crimson;
+  color: #f5f5f5;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid #427AB3;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -273,7 +273,7 @@ p {
 
 #hero .cta:hover {
   color: white;
-  background-color: crimson;
+  background-color: #427AB3;
 }
 /* Hero Section End*/
 
@@ -500,9 +500,9 @@ p {
 .about-right a { /*Button styles and effects*/
   display: inline-block;
   padding: 10px 30px;
-  color: crimson;
+  color: #427AB3;
   background-color: transparent;
-  border: 2px solid crimson;
+  border: 2px solid #427AB3;
   font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
@@ -516,7 +516,7 @@ p {
 
 .about-right a:hover {
   color: white;
-  background-color: crimson;
+  background-color: #427AB3;
 }
 
 .about-left-img{
@@ -533,7 +533,7 @@ p {
   top: 19px;
   height: 98%;
   width: 98%;
-  border: 7px solid crimson;
+  border: 7px solid #427AB3;
   z-index: -1;
 }
 /* About Section End */
@@ -607,7 +607,7 @@ p {
 }
 
 .brand span {
-  color: crimson;
+  color: #427AB3;
 }
 
 .footer h2 {
@@ -676,7 +676,7 @@ p {
 
 @keyframes text_reveal_name {
   100%{
-    color: crimson;
+    color: #427AB3;
     font-weight: bold;
   }
 }
@@ -749,7 +749,7 @@ p {
     top: 34px;
     height: 98%;
     width: 98%;
-    border: 10px solid crimson;
+    border: 10px solid #427AB3;
   }
 
   .about-right {
