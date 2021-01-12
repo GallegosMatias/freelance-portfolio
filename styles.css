@@ -36,6 +36,10 @@ p {
   justify-content: center;
 }
 
+.section-title span {
+  color: crimson;
+}
+
 /* Hero Section */
 #hero {
   background-image: url('./img/hero-bg.png');
@@ -110,7 +114,7 @@ p {
   animation-delay: 2s;
 }
 
-#hero .cta { /*Button styles and effects*/
+.cta { /*Button styles and effects*/
   display: inline-block;
   padding: 10px 30px;
   color: crimson;
@@ -139,7 +143,7 @@ p {
   padding: 100px 0;
 }
 
-#services .section-title {
+.section-title {
   font-size: 4rem;
   font-weight: 300;
   color: black;
@@ -498,7 +502,6 @@ p {
 }
 /* Footer End */
 
-
 /* Keyframes */
 @keyframes text_reveal_box {
   50%{
@@ -524,3 +527,145 @@ p {
   }
 }
 /* Keyframes End */
+
+/* Media Query For Tablet */
+@media only screen and (min-width: 768px) {
+
+  .cta {
+      font-size: 2.5rem;
+      padding: 20px 60px;
+    }
+
+  .section-title {
+    font-size: 5.5rem;
+    }
+
+  /* Hero */
+  #hero h1 {
+    font-size: 7rem;
+  }
+  /* Hero End */
+
+  /* Services Section */
+  .services-item {
+    flex-basis: 45%;
+    margin: 2.5%;
+  }
+  /* Services Section End */
+
+  /* Projects Section */
+  .projects-item {
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    flex-direction: row;
+  }
+
+  .projects-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .projects-item-info {
+    height: 100%;
+  }
+
+  .projects-item-img {
+    height: 100%;
+  }
+  /* Projects Section End */
+
+  /* About Section */
+  .about {
+    flex-direction: row;
+  }
+
+  .about-left {
+    width: 600px;
+    height: 400px;
+    padding-left: 60px;
+  }
+
+  .about-left-img::after {
+    left: -45px;
+    top: 34px;
+    height: 98%;
+    width: 98%;
+    border: 10px solid crimson;
+  }
+
+  .about-right {
+    text-align: left;
+    padding: 30px;
+  }
+
+  .about-right h1 {
+    text-align: left;
+  }
+  /* About Section End */
+
+  /* Contact Section */
+  .contact {
+    flex-direction: column;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+  }
+
+  .contact-items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .contact-item {
+    margin: 10px;
+    flex-direction: row;
+  }
+
+  .contact-item-icon {
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+  }
+
+  .contact-item-icon img {
+    object-fit: contain;
+  }
+
+  .contact-item-info {
+    width: 100%;
+    text-align: left;
+  }
+
+  .contact-item-info h1 {
+    font-size: 2rem;
+  }
+
+  .contact-item-info h2{
+    font-size: 1.2rem;
+  }
+  /* Contact Section End */
+
+
+
+
+}
+/* Media Query For Tablet End*/
+
+/* Media Query For Desktop */
+@media only screen and (min-width:1200px) {
+  .services-item {
+    flex-basis: 22%;
+    margin: 1.5%;
+  }
+
+  .services-top {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+/* Media Query For Desktop End */
