@@ -694,6 +694,10 @@ p {
     font-size: 5.5rem;
     }
 
+  .brand h1 {
+    font-size: 2.8rem;
+  }
+
   /* Hero */
   #hero h1 {
     font-size: 7rem;
@@ -809,6 +813,10 @@ p {
 
 /* Media Query For Desktop */
 @media only screen and (min-width:1200px) {
+  .brand h1 {
+    font-size: 3rem;
+  }
+
   .hamburger {
     display: none;
   }
