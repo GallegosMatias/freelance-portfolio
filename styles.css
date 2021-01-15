@@ -536,7 +536,9 @@ p {
   border: 7px solid #427AB3;
   z-index: -1;
 }
-
+h1 {
+  background-scroll
+}
 /* About Section End */
 
 /* Conact Section */
